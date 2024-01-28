@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    text-align: center;
+}
+
+body
+{
+    background-color: #fcf45e3d;
+}
+
+h1
+{
+    background-color: rgb(8, 8, 51);
+    color: white;
+
+    height: 5rem;
+    line-height: 5rem;
+
+    
+}
+
+
+
+.choices-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5rem;
+
+    gap: 4rem;
+}
+
+.choice
+{
+    height: 150px;
+    width: 150px;
+
+    border-radius: 50%;
+    background-color: pink;
+    border: 6px solid transparent;
+
+    
+}
+
+.choice:hover
+{
+    border: 6px solid black;
+    opacity: 0.5;
+    cursor: pointer;
+
+    transform: scale(1.06);
+
+    box-shadow: 0 0 20px 2px rgb(0, 0, 0);
+}
+
+.choice img
+{
+    height: 150px;
+    width: 150px;
+
+    border-radius: 50%;
+}
+
+
+
+
+.score-board
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+
+    margin-top: 4rem;
+}
+
+
+.score
+{
+    font-size: 2rem;
+}
+
+#user-score,#comp-score
+{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+.msg-container
+{
+    margin-top: 3rem;
+}
+#msg
+{
+    background-color:rgb(8, 8, 51);
+    color: white;
+    height: 3rem;
+    display: inline;
+    font-size: 2rem;
+
+    padding: 1rem;
+    border: 6px solid rgb(241, 236, 225);
+    border-radius: 2rem;
+
+}
+
+
+
+#reset
+{
+    margin-top: 5rem;
+    background-color: green;
+    color: white;
+    padding: 0.2rem 1rem;
+
+    height: 3rem;
+    width: 6rem;
+
+    font-size: 1.5rem;
+}
+
+#reset:hover
+{
+    box-shadow: 0 0 4px 0.5px rgb(26, 82, 5);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+
+.footer
+{
+    background-color: #0808337c;
+    position: absolute;
+    bottom: 0;
+
+    height: 4rem;
+    width: 100vw;
+
+    color: rgba(245, 245, 245, 0.673);
+}
+.footer p
+{
+    margin-top: 1rem;
+}
+
+
+.player
+{
+    position: absolute;
+    top: 12rem;
+    left: 10rem;
+
+}
+
+
+
+.player p
+{
+    background-color: #FFBD58;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    line-height: 3rem;
+    position: relative;
+    left: 0.5rem;
+    top: 2rem;
+
+    font-size: 2rem;
+    padding: 0 1rem;
+
+    border-radius: 2rem;
+    border: 6px solid rgba(0, 0, 0, 0.219);
+
+    text-transform: uppercase;
+}
+
+.comp
+{
+    position: absolute;
+    top: 12rem;
+    right: 10rem;
+}
+
+.comp p
+{
+    background-color: #FFBD58;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    line-height: 3rem;
+    position: relative;
+    left: 1.3rem;
+    top: 2rem;
+
+    font-size: 2rem;
+
+    padding: 0 1rem;
+    border-radius: 2rem;
+    border: 6px solid rgba(0, 0, 0, 0.219);
+
+    text-transform: uppercase;
+}
+
+
+
