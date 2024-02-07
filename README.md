@@ -2,6 +2,7 @@
 
 ------------------------------------------------------------------------------------
 Rock Paper Scissor game ( html,css,js )
+--- Akshay Suresh Malayil
 
 ------------------------------------------------------------------------------------
 ![image](https://github.com/akshaymalayil/akshaymalayil-rock-paper-scissor-game-html-css-js/assets/120209432/2f07e089-0560-4168-8754-a4070b014ca4)
